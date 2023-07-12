@@ -1,0 +1,68 @@
+.time-head{
+    position: absolute;
+    z-index: 2;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+.time-head .i1,.i3,.i5{
+    color: #fff;
+    background-color: #2D699B;
+    padding: 0px 4px;
+    margin: 0px 3px
+    
+}
+.time-head .i2,.i4{
+    color: #fff;
+}
+
+.highObj{
+    font-size: 13;
+    float: left;
+    
+}
+.amtObj{
+    font-size: 13;
+    float: right;
+}
+
+.live-round-img2{
+ z-index: 2px;
+ margin-left: -10px;
+}
+.live-body-icons{
+    float: right;
+    opacity: 0.4;
+}
+.live-body > h6{
+    font-size: 14px;
+    color: #2D699B;
+}
+.live-body > p{
+    font-size: 11px;
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+.card-live{
+    border-radius: 15px 
+}
+.live-card-banner{
+    border-radius: 15px 15px 0px 0px;
+}
+
+@media screen and (max-width:536px)  {
+    .time-head{
+        position: absolute;
+        z-index: 2;
+        margin-left: 210px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .time-head{
+        position: absolute;
+        z-index: 2;
+        margin-left: 210px;
+        margin-top: 15px;
+    }
+}

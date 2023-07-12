@@ -1,0 +1,120 @@
+.navbar-brand{
+    float: right;
+    width: 150px;
+   margin-top: -23px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2D699B ;
+}
+.btn-create{
+    background-color: #2D699B;
+    padding: 6px 22px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 11px;
+}
+.banner-head{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.banner-head >span >p{
+    text-align: justify;
+}
+.banner-head + p{
+    font-size: 14px;
+    text-align: justify;
+}
+.girl-img{
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    border-radius: 10px
+}
+.round-girl{
+    width: 40px;
+}
+.banner-row>h6{
+  color: #2D699B;
+}
+.banner-row>p{
+  font-size: 13px;
+}
+
+/* banner-image */
+#head-banner{
+    background-image:  url('../img/headbanner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+ height: auto;
+}
+.banner-box{
+    border:none;
+}
+
+
+
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    font-size: 10px;
+    width: 200px;
+    border: 1px solid #000;
+}
+.icon-search{
+    font-size: 13px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 1.8rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width:568px) {
+   .navbar-brand{
+        float: left;
+        width: 100px;
+        margin-top: 0px;
+    } 
+    .navbar-toggler{
+        float: right;
+    }
+   
+} 
+
+
+
+@media screen and (max-width:860px) {
+    .navbar-brand{
+         float: left;
+         width: 100px;
+         margin-top: 0px;
+     } 
+     .navbar-toggler{
+        float: right;
+     }
+ }
+

@@ -1,0 +1,56 @@
+
+.card-recently-head{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2D699B;
+}
+.card-star-icons{
+    font-size: 14px;
+    float: right;
+}
+
+.highrecently{
+    font-size: 13;
+    float: left;
+    
+}
+.amtrecently{
+    font-size: 13;
+    float: right;
+}
+
+.recently-round-img2{
+ z-index: 2px;
+ margin-left: -10px;
+}
+.recently-body-icons{
+    float: right;
+    opacity: 0.4;
+}
+.recently-body > h6{
+    font-size: 14px;
+    color: #2D699B;
+}
+.recently-body > p{
+    font-size: 11px;
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+.card-recently{
+    border-radius: 15px 
+}
+.recently-card-banner{
+    border-radius: 15px 15px 0px 0px;
+}
+.btn-more{
+    color: #fff;
+    background-color: #2D699B;
+    padding: 6px 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#recently-bg{
+    background-color: #FAF9FE;
+    opacity: 0.9;
+}
