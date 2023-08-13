@@ -118,3 +118,14 @@
      }
  }
 
+@media screen and (max-width:912px) {
+    .navbar-brand{
+         float: left;
+         width: 100px;
+         margin-top: 0px;
+     } 
+     .navbar-toggler{
+        float: right;
+     }
+ }
+
